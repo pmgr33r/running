@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Days</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <style>
+      .p-display-container {
+        position: relative;
+      }
+      .p-animate-opacity {
+        animation: opac 0.8s;
+      }
+      .p-text-black {
+        color: #000 !important;
+      }
+      .p-display-middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .p-large {
+        font-size: 18px !important;
+      }
+      .p-center {
+        text-align: center !important;
+      }
+      .p-border-grey {
+        border-color: #9e9e9e !important;
+      }
+      .p-jumbo {
+        font-size: 64px !important;
+      }
+
+      body,
+      h1 {
+        font-family: "Roboto", sans-serif;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      .bgimg {
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bgimg p-display-container p-animate-opacity p-text-black">
+      <div class="p-display-middle">
+        <p class="p-large p-center">
+          I have run at least a mile outside for the last
+        </p>
+        <hr class="p-border-grey" style="margin: auto; width: 40%" />
+        <h1 class="p-jumbo p-center"><span id="days"></span> DAYS</h1>
+        <hr class="p-border-grey" style="margin: auto; width: 40%" />
+        <p class="p-large p-center">I'm not sure why.</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    var start = new Date("07/25/2020");
+    var today = new Date();
+    var dif = today.getTime() - start.getTime();
+    var days = Math.round(dif / (1000 * 60 * 60 * 24));
+  document.getElementById('days').innerHTML = days;   
+</script>
+</html>
