@@ -13,6 +13,7 @@ import argparse
 import configparser
 import json
 import os
+import subprocess
 import sys
 from datetime import datetime, timezone
 
@@ -104,8 +105,15 @@ def main():
     access_token, new_refresh_token = refresh_access_token(client_id, client_secret, refresh_token)
 
     if new_refresh_token != refresh_token:
-        print(f"NOTICE: Refresh token rotated. Update REFRESH_TOKEN in environment.ini.")
-        print(f"New token: {new_refresh_token}")
+        print("Refresh token rotated. Updating secret via gh CLI.")
+        result = subprocess.run(
+            ["gh", "secret", "set", "STRAVA_REFRESH_TOKEN", "--body", new_refresh_token],
+            capture_output=True, text=True
+        )
+        if result.returncode != 0:
+            print(f"Failed to update secret: {result.stderr}", file=sys.stderr)
+        else:
+            print("STRAVA_REFRESH_TOKEN secret updated.")
 
     activities = get_todays_activities(access_token)
 
