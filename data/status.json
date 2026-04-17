@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-04-17T19:19:17.875223+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Morning Run Elkhorn, Nebraska \u2601\ufe0f",
+      "type": "Run",
+      "distance_miles": 3.02,
+      "moving_time_minutes": 25.6,
+      "start_time": "2026-04-17T10:16:57Z"
+    }
+  ]
+}
