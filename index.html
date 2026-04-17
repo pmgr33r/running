@@ -72,6 +72,17 @@
     var today = new Date();
     var dif = today.getTime() - start.getTime();
     var days = Math.round(dif / (1000 * 60 * 60 * 24));
-  document.getElementById('days').innerHTML = days;   
+
+     fetch('data/status.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (!data.activity_logged) {
+          days = days - 1;
+        }
+        document.getElementById('days').innerHTML = days;
+      })
+      .catch(function() {
+        document.getElementById('days').innerHTML = days;
+      });
 </script>
 </html>
