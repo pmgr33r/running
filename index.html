@@ -68,10 +68,12 @@
     <a rel="me" href="https://mastodon.content.town/@Pat"></a>
   </body>
   <script>
-    var start = new Date("07/25/2020");
-    var today = new Date();
-    var dif = today.getTime() - start.getTime();
-    var days = Math.round(dif / (1000 * 60 * 60 * 24));
+     var start = new Date(2020, 6, 25);
+     var now = new Date();
+     var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    
+     var dif = today.getTime() - start.getTime();
+     var days = Math.round(dif / (1000 * 60 * 60 * 24));
 
      fetch('data/status.json')
       .then(function(r) { return r.json(); })
