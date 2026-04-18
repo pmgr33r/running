@@ -1,6 +1,14 @@
 {
-  "checked_at": "2026-04-18T15:58:15.599122+00:00",
-  "activity_logged": false,
-  "activity_count": 0,
-  "activities": []
+  "checked_at": "2026-04-18T16:40:50.459411+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Lunch Run Bennington, Nebraska \u2600\ufe0f",
+      "type": "Run",
+      "distance_miles": 3.04,
+      "moving_time_minutes": 24.8,
+      "start_time": "2026-04-18T11:12:36Z"
+    }
+  ]
 }
