@@ -1,14 +1,6 @@
 {
-  "checked_at": "2026-04-25T23:02:57.651810+00:00",
-  "activity_logged": true,
-  "activity_count": 1,
-  "activities": [
-    {
-      "name": "Morning Run",
-      "type": "Run",
-      "distance_miles": 3.11,
-      "moving_time_minutes": 24.9,
-      "start_time": "2026-04-25T09:17:56Z"
-    }
-  ]
+  "checked_at": "2026-04-26T00:00:21.373064+00:00",
+  "activity_logged": false,
+  "activity_count": 0,
+  "activities": []
 }
