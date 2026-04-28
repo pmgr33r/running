@@ -1,6 +1,14 @@
 {
-  "checked_at": "2026-04-28T12:10:41.922232+00:00",
-  "activity_logged": false,
-  "activity_count": 0,
-  "activities": []
+  "checked_at": "2026-04-28T17:08:59.147801+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Lunch Run Omaha, Nebraska \u2601\ufe0f",
+      "type": "Run",
+      "distance_miles": 4.04,
+      "moving_time_minutes": 33.1,
+      "start_time": "2026-04-28T11:20:50Z"
+    }
+  ]
 }
