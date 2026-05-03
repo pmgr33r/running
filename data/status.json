@@ -1,14 +1,6 @@
 {
-  "checked_at": "2026-05-02T23:34:49.554853+00:00",
-  "activity_logged": true,
-  "activity_count": 1,
-  "activities": [
-    {
-      "name": "Double Lake All The Way! Bennington, Nebraska \u2600\ufe0f",
-      "type": "Run",
-      "distance_miles": 7.29,
-      "moving_time_minutes": 62.9,
-      "start_time": "2026-05-02T10:45:24Z"
-    }
-  ]
+  "checked_at": "2026-05-03T02:00:59.529089+00:00",
+  "activity_logged": false,
+  "activity_count": 0,
+  "activities": []
 }
