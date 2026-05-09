@@ -1,14 +1,6 @@
 {
-  "checked_at": "2026-05-08T23:47:57.330729+00:00",
-  "activity_logged": true,
-  "activity_count": 1,
-  "activities": [
-    {
-      "name": "Afternoon Run Elkhorn, Nebraska \u2600\ufe0f",
-      "type": "Run",
-      "distance_miles": 3.02,
-      "moving_time_minutes": 27.1,
-      "start_time": "2026-05-08T14:32:46Z"
-    }
-  ]
+  "checked_at": "2026-05-09T02:03:58.160268+00:00",
+  "activity_logged": false,
+  "activity_count": 0,
+  "activities": []
 }
