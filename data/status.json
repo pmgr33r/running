@@ -1,6 +1,14 @@
 {
-  "checked_at": "2026-05-09T15:28:12.587180+00:00",
-  "activity_logged": false,
-  "activity_count": 0,
-  "activities": []
+  "checked_at": "2026-05-09T16:27:19.237840+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Morning Run Bennington, Nebraska \u2600\ufe0f",
+      "type": "Run",
+      "distance_miles": 3.02,
+      "moving_time_minutes": 28.6,
+      "start_time": "2026-05-09T10:13:56Z"
+    }
+  ]
 }
