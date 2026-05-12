@@ -1,14 +1,6 @@
 {
-  "checked_at": "2026-05-11T23:49:34.255527+00:00",
-  "activity_logged": true,
-  "activity_count": 1,
-  "activities": [
-    {
-      "name": "Lunch Run Elkhorn, Nebraska \u2600\ufe0f",
-      "type": "Run",
-      "distance_miles": 3.01,
-      "moving_time_minutes": 25.6,
-      "start_time": "2026-05-11T11:50:34Z"
-    }
-  ]
+  "checked_at": "2026-05-12T02:08:47.104429+00:00",
+  "activity_logged": false,
+  "activity_count": 0,
+  "activities": []
 }
