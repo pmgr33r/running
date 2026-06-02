@@ -1,14 +1,6 @@
 {
-  "checked_at": "2026-06-01T22:39:41.339310+00:00",
-  "activity_logged": true,
-  "activity_count": 1,
-  "activities": [
-    {
-      "name": "Morning Run Omaha, Nebraska \u2600\ufe0f",
-      "type": "Run",
-      "distance_miles": 3.14,
-      "moving_time_minutes": 29.4,
-      "start_time": "2026-06-01T08:59:34Z"
-    }
-  ]
+  "checked_at": "2026-06-02T00:07:18.920187+00:00",
+  "activity_logged": false,
+  "activity_count": 0,
+  "activities": []
 }
