@@ -1,6 +1,14 @@
 {
-  "checked_at": "2026-06-08T17:32:19.274935+00:00",
-  "activity_logged": false,
-  "activity_count": 0,
-  "activities": []
+  "checked_at": "2026-06-08T20:02:31.631782+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Afternoon Run Branson, Missouri \u2601\ufe0f",
+      "type": "Run",
+      "distance_miles": 3.03,
+      "moving_time_minutes": 29.2,
+      "start_time": "2026-06-08T13:35:07Z"
+    }
+  ]
 }
