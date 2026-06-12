@@ -1,6 +1,14 @@
 {
-  "checked_at": "2026-06-12T13:58:23.226623+00:00",
-  "activity_logged": false,
-  "activity_count": 0,
-  "activities": []
+  "checked_at": "2026-06-12T16:44:29.014213+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Morning Run Branson, Missouri \u2600\ufe0f",
+      "type": "Run",
+      "distance_miles": 3.51,
+      "moving_time_minutes": 31.8,
+      "start_time": "2026-06-12T10:32:38Z"
+    }
+  ]
 }
