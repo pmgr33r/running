@@ -1,6 +1,14 @@
 {
-  "checked_at": "2026-06-19T18:15:40.579379+00:00",
-  "activity_logged": false,
-  "activity_count": 0,
-  "activities": []
+  "checked_at": "2026-06-19T20:11:32.853849+00:00",
+  "activity_logged": true,
+  "activity_count": 1,
+  "activities": [
+    {
+      "name": "Afternoon Run Omaha, Nebraska \u2601\ufe0f",
+      "type": "Run",
+      "distance_miles": 5.21,
+      "moving_time_minutes": 42.4,
+      "start_time": "2026-06-19T14:16:10Z"
+    }
+  ]
 }
