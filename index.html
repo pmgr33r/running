@@ -63,6 +63,7 @@
         <h1 class="p-jumbo p-center"><span id="days"></span> DAYS</h1>
         <hr class="p-border-grey" style="margin: auto; width: 40%" />
         <p class="p-large p-center">I'm not sure why.</p>
+        <p class="p-large p-center" id="distance"></p>
       </div>
     </div>
     <a rel="me" href="https://mastodon.content.town/@Pat"></a>
@@ -75,13 +76,26 @@
      var dif = today.getTime() - start.getTime();
      var days = Math.floor(dif / (1000 * 60 * 60 * 24)) + 1;
 
-     fetch('data/status.json')
+     var todayStr = now.toLocaleDateString('en-CA');
+  
+
+     fetch('data/status.json?=' + Date.now())
       .then(function(r) { return r.json(); })
       .then(function(data) {
-        if (!data.activity_logged) {
+        var checkedDate = (data.checked_at || '').split('T')[0];
+        var ranToday = data.activity_logged && checkedDate == todayStr;
+
+        if (!ranToday) {
           days = days - 1;
         }
         document.getElementById('days').innerHTML = days;
+
+        if (ranToday) {
+          var miles = parseFloat(data.distance);
+            if (!isNaN(miles)) {
+              document.getElementById('distance').innerHTML = 'Today: ' + miles.toFixed(2) + ' miles';
+            }
+        }
       })
       .catch(function() {
         document.getElementById('days').innerHTML = days;
