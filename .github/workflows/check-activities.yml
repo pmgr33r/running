@@ -24,7 +24,7 @@ jobs:
             --arg now "$NOW" \
             --arg distance "$RUN_DISTANCE" \
             '{activity_logged: true,  checked_at: $now, distance: $distance}' \
-            > date/status.json
+            > data/status.json
           cat data/status.json
           
       - name: Deploy
